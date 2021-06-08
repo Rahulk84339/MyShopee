@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+li a:hover {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 90px auto;
+    margin-top: 30px;
+}
+
+.heading {
+    display: inline-block;
+    position: relative;
+    margin: 90px auto;
+    margin-bottom: 20px;
+    margin-left: 38%;
+}
+
+.heading h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .card1 {
+    display: flex;
+    width: 90vw;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.container .card1 img {
+    margin: 0px 35px;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.container .card2 {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    margin: 10px auto;
+}
+
+.container .card2 img {
+    margin: 0px 40px;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.container .card3 {
+    display: flex;
+    margin: 10px auto;
+    width: 90vw;
+    justify-content: center;
+}
+
+.container .card3 img {
+    margin: 0px 40px;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+
+.line1 {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.line1 p {
+    margin: 5px 120px;
+    font-weight: bold;
+}
+
+.line2 {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.line2 p {
+    margin: 5px 120px;
+    font-weight: bold;
+}
+
+.line3 {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.line3 p {
+    margin: 5px 120px;
+    font-weight: bold;
+}
