@@ -43,7 +43,7 @@
             </a>
         </div>
         <div class="bar1">
-            <a href="Mobiles.html"><img src="img/Mobiles.png">
+            <a href="mobile.html"><img src="img/Mobiles.png">
                 <div class="line">Mobiles <i class="fa fa-angle-down"></i></div>
             </a>
         </div>
@@ -53,7 +53,7 @@
             </a>
         </div>
         <div class="bar1">
-            <a href="Electronics.html"><img src="img/Electronics.png">
+            <a href="#"><img src="img/Electronics.png">
                 <div class="line">Electronics<i class="fa fa-angle-down"></i></div>
             </a>
         </div>
@@ -258,12 +258,12 @@
                     <h3>Download Our App</h3>
                     <p>Download App for Android and ios mobile phone</p>
                     <div class="app-logo">
-                        <img src="images/play-store.png" alt="">
-                        <img src="images/app-store.png" alt="">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
                     </div>
                 </div>
                 <div class="footer-col-2">
-                    <img src="images/logo-white.png">
+                    <a href="index.html"><img src="logo/white logo.png"></a>
                     <p>Our Purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
                     </p>
                 </div>
@@ -287,9 +287,35 @@
                 </div>
             </div>
             <hr>
-            <p class="copyright">Copyright 2021</p>
+            <p class="copyright">Copyright 2021-MyShopee</p>
         </div>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top<i class="fa fa-arrow-up"></i></button>
+    <!-- js for top button -->
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
     <!-- js for toggle menu -->
     <script>
         var MenuItems = document.getElementById("MenuItems");

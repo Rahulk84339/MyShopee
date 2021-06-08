@@ -53,7 +53,7 @@
             </a>
         </div>
         <div class="bar1">
-            <a href="Electronics.html"><img src="img/Electronics.png">
+            <a href="#"><img src="img/Electronics.png">
                 <div class="line">Electronics<i class="fa fa-angle-down"></i></div>
             </a>
         </div>
@@ -250,6 +250,31 @@
         </div>
     </div>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top<i class="fa fa-arrow-up"></i></button>
+    <!-- js for top button -->
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
     <!-- footer -->
     <div class="footer">
         <div class="container">
@@ -263,7 +288,7 @@
                     </div>
                 </div>
                 <div class="footer-col-2">
-                    <img src="images/logo-white.png">
+                    <a href="index.html"><img src="logo/white logo.png"></a>
                     <p>Our Purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
                     </p>
                 </div>
@@ -287,7 +312,7 @@
                 </div>
             </div>
             <hr>
-            <p class="copyright">Copyright 2021</p>
+            <p class="copyright">Copyright 2021-MyShopee</p>
         </div>
     </div>
     <!-- js for toggle menu -->
