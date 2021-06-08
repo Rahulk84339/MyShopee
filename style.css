@@ -110,7 +110,7 @@ li:hover {
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
-    margin-left: 785px;
+    margin-left: 57vw;
 }
 
 .btn:hover {
@@ -371,6 +371,8 @@ ul {
         cursor: pointer;
     }
 }
+
+
 
 /* all products */
 
