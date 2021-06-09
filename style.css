@@ -721,11 +721,14 @@ form .btn:focus {
 .bar {
     display: flex;
     position: relative;
-    height: 115px;
+    max-height: 160px;
     width: 100%;
-    /* margin-top: 10px; */
     margin-bottom: 50px;
-    overflow: hidden;
+    overflow-x: auto;
+}
+
+.bar::-webkit-scrollbar {
+    width: 0;
 }
 
 .bar .bar1 {
