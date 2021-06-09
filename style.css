@@ -8,7 +8,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#preloader{
+#preloader {
     background: #fff url(preloader/loader.gif) no-repeat center center;
     height: 100vh;
     width: 100%;
@@ -102,7 +102,7 @@ li:hover {
     transition: background 0.5s;
 }
 
-.ptc{
+.ptc {
     display: flex;
     background: #ff523b;
     color: #fff;
@@ -116,6 +116,7 @@ li:hover {
 .btn:hover {
     background-color: #563434;
 }
+
 .ptc:hover {
     background-color: #563434;
 }
@@ -358,11 +359,10 @@ ul {
         transition: max-height 0.5s;
     }
     nav ul li {
-        display: block;
+        display: flex;
         margin-top: 10px;
-        margin-right: 50px;
-        margin-left: 50px;
         margin-bottom: 10px;
+        justify-content: center;
     }
     nav ul li a {
         color: #fff;
@@ -371,9 +371,10 @@ ul {
         display: block;
         cursor: pointer;
     }
+    #MenuItems {
+        z-index: 2;
+    }
 }
-
-
 
 /* all products */
 
@@ -717,7 +718,6 @@ form .btn:focus {
     }
 }
 
-
 .bar {
     display: flex;
     position: relative;
@@ -758,6 +758,6 @@ form .btn:focus {
     transform: scale(1.05);
 }
 
-.bar .bar1 a:hover img{
+.bar .bar1 a:hover img {
     transform: scale(1.09);
 }
