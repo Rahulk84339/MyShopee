@@ -177,22 +177,64 @@ li a:hover {
     border: none;
     cursor: pointer;
     padding: 10px;
-    font-size: 18px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 990px) {
     .contact {
         padding: 50px;
     }
     .container {
         flex-direction: column;
+        margin-left: 0px;
     }
     .container .contactInfo {
         margin-bottom: 40px;
+        margin-left: 0px;
     }
     nav ul {
         position: absolute;
-        top: 70px;
+        top: 90px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+    nav ul li a {
+        color: #fff;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .contactForm {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .contactForm {
+        width: 100%;
+    }
+    .container .contactInfo {
+        margin-bottom: 40px;
+        margin-left: 0px;
+    }
+    .text p {
+        flex-direction: column;
+    }
+    nav ul {
+        position: absolute;
+        top: 90px;
         left: 0;
         background: #333;
         width: 100%;
@@ -241,7 +283,6 @@ li a:hover {
     }
 } */
 
-
-.text p{
+.text p {
     color: #fff;
 }

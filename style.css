@@ -350,7 +350,7 @@ ul {
 @media only screen and (max-width: 800px) {
     nav ul {
         position: absolute;
-        top: 70px;
+        top: 80px;
         left: 0;
         background: #333;
         width: 100%;
@@ -361,6 +361,7 @@ ul {
         display: block;
         margin-top: 10px;
         margin-right: 50px;
+        margin-left: 50px;
         margin-bottom: 10px;
     }
     nav ul li a {
