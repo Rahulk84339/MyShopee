@@ -374,6 +374,16 @@ ul {
     #MenuItems {
         z-index: 2;
     }
+    .small-container .row-2 h2 {
+        display: flex;
+        position: relative;
+        margin-right: 20vw;
+    }
+    .small-container .row-2 p {
+        position: relative;
+        display: flex;
+        margin-right: 0px;
+    }
 }
 
 /* all products */
@@ -469,14 +479,14 @@ input:focus {
 .small-container .row-2 h2 {
     display: flex;
     position: relative;
-    margin-right: 28vw;
+    margin-right: 30vw;
 }
 
-/* .small-container .row-2 p {
+.small-container .row-2 p {
     position: relative;
     display: flex;
-    margin-left: 850px;
-} */
+    margin-right: 0px;
+}
 
 /* media query for less than 600 screen size */
 
@@ -499,6 +509,16 @@ input:focus {
     }
     .cart-info {
         display: none;
+    }
+    .small-container .row-2 h2 {
+        display: flex;
+        position: relative;
+        margin-right: 20vw;
+    }
+    .small-container .row-2 p {
+        position: relative;
+        display: flex;
+        margin-right: 0px;
     }
 }
 
@@ -647,7 +667,7 @@ form .btn:focus {
     display: none;
     position: fixed;
     bottom: 9.5vh;
-    right: 0.1vw;
+    right: 10px;
     z-index: 10;
     font-size: 18px;
     border: none;
