@@ -469,14 +469,14 @@ input:focus {
 .small-container .row-2 h2 {
     display: flex;
     position: relative;
-    float: left;
+    margin-right: 28vw;
 }
 
-.small-container .row-2 p {
+/* .small-container .row-2 p {
     position: relative;
     display: flex;
     margin-left: 850px;
-}
+} */
 
 /* media query for less than 600 screen size */
 
