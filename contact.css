@@ -41,8 +41,8 @@ p {
     color: #555;
 }
 
-li a:hover {
-    font-weight: bold;
+#MenuItems li:hover {
+   transform: scale(1.05);
 }
 
 .menu-icon {
