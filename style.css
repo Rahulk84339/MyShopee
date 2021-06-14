@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
+    
 }
 
 nav {
@@ -48,14 +49,20 @@ p {
 }
 
 li:hover {
-    transform: scale(1.09);
-    color: #333;
+    transform: scale(1.05);
+    color: white;
+    background-color: #ff523b;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+#MenuItems li a:hover{
+    color: white;
 }
 
 .container {
     max-width: 1300px;
     margin: auto;
-    /* padding-left: 25px; */
     padding-right: 25px;
 }
 
@@ -64,7 +71,6 @@ li:hover {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* margin-left: 50px; */
 }
 
 .col-2 {
@@ -122,11 +128,11 @@ li:hover {
 }
 
 .header {
-    background: radial-gradient(#fff, #ffd6d6);
+    background: linear-gradient(to bottom, #ffd8ff 0%, #ffffff 100%);
 }
 
 .header .row {
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .categories {
