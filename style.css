@@ -73,7 +73,6 @@ li:hover {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 15px;
 }
 
 .col-2 {
@@ -241,7 +240,7 @@ small {
 }
 
 .footer {
-    background: #000;
+    background: rgb(0, 0, 29);
     color: #8a8a8a;
     font-size: 14px;
     padding: 60px 0 20px;
@@ -389,7 +388,7 @@ select:focus {
 /* single product details */
 
 .single-product {
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .single-product .col-2 img {
@@ -708,6 +707,7 @@ form .btn:focus {
     max-height: 160px;
     width: 100%;
     overflow-x: auto;
+    margin-top: 30px;
 }
 
 .bar::-webkit-scrollbar {
