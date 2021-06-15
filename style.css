@@ -20,7 +20,9 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
-    
+    background: #ffeded;
+    border-radius: 50px;
+    margin-left: 19px;
 }
 
 nav {
@@ -56,7 +58,7 @@ li:hover {
     transition: 0.5s;
 }
 
-#MenuItems li a:hover{
+#MenuItems li a:hover {
     color: white;
 }
 
@@ -71,6 +73,7 @@ li:hover {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: 15px;
 }
 
 .col-2 {
@@ -303,7 +306,7 @@ ul {
 
 .menu-icon {
     width: 28px;
-    margin-left: 20px;
+    margin-right: 10px;
     display: none;
 }
 
