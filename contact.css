@@ -10,16 +10,23 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-container{
+    margin-bottom: 40px;
+    width: 100%;
+}
+
 .navbar {
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 30px;
-    margin-top: 0;
+    align-items: center;
+    padding: 20px;
+    background: #ffeded;
+    border-radius: 50px;
+    margin: 0px auto;
 }
 
 nav {
     flex: 1;
-    text-align: center;
+    text-align: right;
 }
 
 nav ul {
@@ -34,27 +41,41 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #555;
+    margin: 0 5px;
 }
 
 p {
     color: #555;
 }
 
-#MenuItems li:hover {
-   transform: scale(1.05);
+li:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: #ff523b;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+#MenuItems li a:hover {
+    color: white;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
 }
 
 .menu-icon {
     width: 28px;
-    margin-left: 20px;
+    margin-right: 10px;
     display: none;
 }
 
 .contact {
     position: relative;
     min-height: 100vh;
-    padding: 50px 100px;
+    padding: 0px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,6 +98,7 @@ p {
 .contact .content p {
     font-weight: 300;
     color: #fff;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -84,7 +106,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .container .contactInfo {
@@ -216,8 +238,8 @@ p {
     .contactForm {
         width: 80%;
     }
-    .logo img{
-        width: 100%;
+    .logo img {
+        width: 80%;
     }
 }
 
@@ -257,34 +279,10 @@ p {
         display: block;
         cursor: pointer;
     }
+    .nav-container {
+        margin-top: 0px;
+    }
 }
-
-/* media query for menu */
-
-/* @media only screen and (max-width: 800px) {
-    nav ul {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #333;
-        width: 100%;
-        overflow: hidden;
-        transition: max-height 0.5s;
-    }
-    nav ul li {
-        display: block;
-        margin-top: 10px;
-        margin-right: 50px;
-        margin-bottom: 10px;
-    }
-    nav ul li a {
-        color: #fff;
-    }
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-} */
 
 .text p {
     color: #fff;

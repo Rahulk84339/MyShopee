@@ -22,7 +22,7 @@ body {
     padding: 20px;
     background: #ffeded;
     border-radius: 50px;
-    margin-left: 19px;
+    margin: 0 auto;
 }
 
 nav {
@@ -65,7 +65,6 @@ li:hover {
 .container {
     max-width: 1300px;
     margin: auto;
-    padding-right: 25px;
 }
 
 .row {
@@ -442,13 +441,13 @@ input:focus {
 .small-container .row-2 h2 {
     display: flex;
     position: relative;
-    margin-right: 30vw;
+    margin-left: 10px;
 }
 
 .small-container .row-2 p {
     position: relative;
     display: flex;
-    margin-right: 0px;
+    margin-right: 10px;
 }
 
 /* media query for less than 600 screen size */
@@ -476,12 +475,12 @@ input:focus {
     .small-container .row-2 h2 {
         display: flex;
         position: relative;
-        margin-right: 20vw;
+        margin-left: 10px;
     }
     .small-container .row-2 p {
         position: relative;
         display: flex;
-        margin-right: 0px;
+        margin-right: 10px;
     }
 }
 
@@ -553,7 +552,6 @@ th:last-child {
 
 .account-page {
     padding: 50px 0;
-    /* background: radial-gradient(#fff, #ffd6d6); */
 }
 
 .form-container {
@@ -653,7 +651,6 @@ form .btn:focus {
     height: 500px;
     width: 100%;
     justify-items: center;
-    /* margin: 90px auto; */
     margin-bottom: 60px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
