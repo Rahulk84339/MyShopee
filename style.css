@@ -37,7 +37,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 a {
@@ -51,7 +51,7 @@ p {
 }
 
 li:hover {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     color: white;
     background-color: #ff523b;
     border-radius: 50px;
