@@ -198,7 +198,7 @@ h4 {
 }
 
 .col-4:hover {
-    transform: translateY(-6px);
+    transform: scale(1.05);
 }
 
 /* offer */
@@ -665,6 +665,7 @@ form .btn:focus {
 #slider figure img {
     float: left;
     width: 20%;
+    background-size: cover;
 }
 
 @keyframes slider {

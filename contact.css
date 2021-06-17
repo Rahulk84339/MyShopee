@@ -10,7 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-container{
+.nav-container {
     margin-bottom: 40px;
     width: 100%;
 }
@@ -36,7 +36,6 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
 }
 
 a {
@@ -50,7 +49,6 @@ p {
 }
 
 li:hover {
-    transform: scale(1.05);
     color: white;
     background-color: #ff523b;
     border-radius: 50px;
@@ -203,7 +201,7 @@ li:hover {
 
 @media (max-width: 990px) {
     .contact {
-        padding: 50px;
+        padding: 30px;
     }
     .container {
         flex-direction: column;
@@ -215,7 +213,7 @@ li:hover {
     }
     nav ul {
         position: absolute;
-        top: 90px;
+        top: 135px;
         left: 0;
         background: #333;
         width: 100%;
@@ -223,9 +221,9 @@ li:hover {
         transition: max-height 0.5s;
     }
     nav ul li {
-        display: block;
+        display: flex;
         margin-top: 10px;
-        margin-right: 50px;
+        justify-content: center;
         margin-bottom: 10px;
     }
     nav ul li a {
@@ -259,7 +257,7 @@ li:hover {
     }
     nav ul {
         position: absolute;
-        top: 90px;
+        top: 135px;
         left: 0;
         background: #333;
         width: 100%;
@@ -267,9 +265,9 @@ li:hover {
         transition: max-height 0.5s;
     }
     nav ul li {
-        display: block;
+        display: flex;
         margin-top: 10px;
-        margin-right: 50px;
+        justify-content: center;
         margin-bottom: 10px;
     }
     nav ul li a {
