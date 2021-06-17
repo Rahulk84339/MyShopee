@@ -20,9 +20,11 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
-    background: #ffeded;
+    background: #ffdad5;
     border-radius: 50px;
     margin: 0 auto;
+    box-shadow: lightpink;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -106,17 +108,20 @@ li:hover {
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .ptc {
-    display: flex;
+    position: relative;
+    display: inline-block;
     background: #ff523b;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
-    margin-left: 57vw;
+    float: right;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
@@ -146,7 +151,7 @@ li:hover {
 }
 
 .small-container {
-    max-width: 1080px;
+    max-width: 1200px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -238,18 +243,20 @@ small {
 }
 
 .footer {
-    background: rgb(0, 0, 60);
-    color: #8a8a8a;
+    background: #ff523b;
+    color: #fff;
+    /* color: #8a8a8a; */
     font-size: 14px;
     padding: 60px 0 20px;
+    /* background: rgb(0, 0, 60); */
 }
 
 .footer p {
-    color: #fff;
+    color: #000;
 }
 
-.footer h3 {
-    color: #fff;
+.footer h2 {
+    color: #000;
     margin-bottom: 20px;
 }
 
@@ -279,8 +286,9 @@ small {
 }
 
 .footer hr {
+    background: #000;
     border: none;
-    background: #b5b5b5;
+    /* background: #b5b5b5; */
     height: 1px;
     margin: 20px 0;
 }
