@@ -22,7 +22,7 @@ body {
     padding: 20px;
     background: #ffe4e1;
     border-radius: 50px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -51,7 +51,6 @@ p {
 }
 
 li:hover {
-    /* transform: scale(1.05); */
     color: white;
     background-color: #ff523b;
     border-radius: 50px;
@@ -241,6 +240,81 @@ small {
 
 .col-5 img:hover {
     filter: grayscale(0);
+}
+
+/* footer */
+
+.footer {
+    background: #ff523b;
+    color: #fff;
+    /* color: #8a8a8a; */
+    font-size: 14px;
+    padding: 60px 0 20px;
+    /* background: rgb(0, 0, 60); */
+}
+
+.footer p {
+    color: #000;
+}
+
+.footer h2 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer hr {
+    background: #000;
+    border: none;
+    /* background: #b5b5b5; */
+    height: 1px;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 10px;
+    display: none;
 }
 
 /* media query for menu */
@@ -679,81 +753,6 @@ form .btn:focus {
 
 .bar .bar1 a:hover img {
     transform: scale(1.09);
-}
-
-/* footer */
-
-.footer {
-    background: #ff523b;
-    color: #fff;
-    /* color: #8a8a8a; */
-    font-size: 14px;
-    padding: 60px 0 20px;
-    /* background: rgb(0, 0, 60); */
-}
-
-.footer p {
-    color: #000;
-}
-
-.footer h2 {
-    color: #000;
-    margin-bottom: 20px;
-}
-
-.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
-    min-width: 250px;
-    margin-bottom: 20px;
-}
-
-.footer-col-1 {
-    flex-basis: 30%;
-}
-
-.footer-col-2 {
-    flex: 1;
-    text-align: center;
-}
-
-.footer-col-2 img {
-    width: 180px;
-    margin-bottom: 20px;
-}
-
-.footer-col-3, .footer-col-4 {
-    flex-basis: 12%;
-    text-align: center;
-    cursor: pointer;
-}
-
-.footer hr {
-    background: #000;
-    border: none;
-    /* background: #b5b5b5; */
-    height: 1px;
-    margin: 20px 0;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.app-logo {
-    margin-top: 20px;
-}
-
-.app-logo img {
-    width: 140px;
-}
-
-.copyright {
-    text-align: center;
-}
-
-.menu-icon {
-    width: 28px;
-    margin-right: 10px;
-    display: none;
 }
 
 .card3 {
