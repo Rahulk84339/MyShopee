@@ -19,9 +19,9 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
-    background: #ffeded;
+    /* background: #ffa7a7; */
     border-radius: 50px;
-    margin: 0px auto;
+    margin: 0px 0px;
 }
 
 nav {
@@ -40,7 +40,7 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #555;
+    color: #fff;
     margin: 0 5px;
 }
 
@@ -254,7 +254,7 @@ li:hover {
     }
     nav ul {
         position: absolute;
-        top: 135px;
+        top: 13vh;
         left: 0;
         background: #333;
         width: 100%;
@@ -273,9 +273,14 @@ li:hover {
     .menu-icon {
         display: block;
         cursor: pointer;
+        margin-right: 10px;
     }
     .nav-container {
         margin-top: 0px;
+    }
+    .logo img{
+        margin-left: 0%;
+        width: 80%;
     }
 }
 
