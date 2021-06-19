@@ -171,7 +171,7 @@ li:hover {
 
 .title {
     text-align: center;
-    margin: 0 auto 80px;
+    margin: 0 auto 60px;
     position: relative;
     line-height: 60px;
     color: #555;
@@ -186,6 +186,26 @@ li:hover {
     border-radius: 5px;
     bottom: 0;
     left: 50%;
+    transform: translate(-50%);
+}
+
+.p-title {
+    text-align: center;
+    margin: 0 auto 60px;
+    position: relative;
+    line-height: 25px;
+    color: #555;
+}
+
+.p-title::after {
+    content: '';
+    background: #ff523b;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+    left: 9.5%;
     transform: translate(-50%);
 }
 
@@ -451,7 +471,8 @@ input:focus {
 .small-container .row-2 h2 {
     display: flex;
     position: relative;
-    margin-left: 10px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .small-container .row-2 p {
@@ -481,16 +502,6 @@ input:focus {
     }
     .cart-info {
         display: none;
-    }
-    .small-container .row-2 h2 {
-        display: flex;
-        position: relative;
-        margin-left: 10px;
-    }
-    .small-container .row-2 p {
-        position: relative;
-        display: flex;
-        margin-right: 10px;
     }
 }
 
