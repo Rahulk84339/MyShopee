@@ -17,4 +17,11 @@ body {
     border-radius: 50px;
     font-size: 15px;
     margin: 0 auto;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.small-container .row .col-4 .add-to-cart:hover {
+    background-color: #563434;
+    color: #fff;
 }
