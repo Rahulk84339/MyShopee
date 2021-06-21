@@ -264,7 +264,7 @@ li:hover {
 }
 
 .categories {
-    margin: 70px 0;
+    margin: 40px 0;
 }
 
 .col-3 {
@@ -395,6 +395,9 @@ li:hover {
     .advert .advert-layout {
         grid-template-columns: 1fr;
     }
+    .section {
+        padding: 1rem 0rem 4rem 0rem;
+    }
 }
 
 @media only screen and (max-width: 567px) {
@@ -454,10 +457,16 @@ li:hover {
 h4 {
     color: #555;
     font-weight: normal;
+    text-align: center;
 }
 
 .col-4 p {
     font-size: 14px;
+    text-align: center;
+}
+
+.rating {
+    text-align: center;
 }
 
 .rating .fa {
@@ -489,6 +498,10 @@ small {
 
 .brands {
     margin: 100px auto;
+}
+
+.brands .small-container p {
+    text-align: center;
 }
 
 .col-5 {
