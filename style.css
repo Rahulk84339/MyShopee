@@ -632,6 +632,9 @@ ul {
         display: flex;
         margin-right: 0px;
     }
+    #myBtn{
+        margin-left: 30%;
+    }
 }
 
 /* all products */
@@ -735,30 +738,6 @@ input:focus {
     position: relative;
     display: flex;
     margin-right: 10px;
-}
-
-/* media query for less than 600 screen size */
-
-@media only screen and (max-width: 600px) {
-    .row {
-        text-align: center;
-    }
-    .col-2, .col-3, .col-4 {
-        flex-basis: 100%;
-    }
-    .single-product .row {
-        text-align: left;
-    }
-    .single-product .col-2 {
-        padding: 20px 0;
-    }
-    .single-product h1 {
-        font-size: 26px;
-        line-height: 32px;
-    }
-    .cart-info {
-        display: none;
-    }
 }
 
 /* cart items */
@@ -904,23 +883,23 @@ form .btn:focus {
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 9.5vh;
-    right: 10px;
+    bottom: 0;
+    margin-left: 46vw;
     z-index: 10;
-    font-size: 18px;
+    font-size: 15px;
     border: none;
-    outline: none;
     background-color: gray;
     color: white;
     cursor: pointer;
-    padding: 10px;
+    padding: 5px;
     border-radius: 100px;
     opacity: 0.7;
     font-size: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 #myBtn:hover {
-    background-color: #555;
+    color: #000;
 }
 
 #slider {
