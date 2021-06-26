@@ -503,6 +503,7 @@ small {
 
 .brands .small-container p {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .col-5 {
@@ -512,11 +513,10 @@ small {
 .col-5 img {
     width: 100%;
     cursor: pointer;
-    filter: grayscale(100%);
 }
 
-.col-5 img:hover {
-    filter: grayscale(0);
+.col-5 img:hover{
+    transform: scale(1.1);
 }
 
 /* footer */
@@ -524,10 +524,8 @@ small {
 .footer {
     background: #ff523b;
     color: #fff;
-    /* color: #8a8a8a; */
     font-size: 14px;
     padding: 60px 0 20px;
-    /* background: rgb(0, 0, 60); */
 }
 
 .footer p {
@@ -567,13 +565,20 @@ small {
 .footer hr {
     background: #000;
     border: none;
-    /* background: #b5b5b5; */
     height: 1px;
     margin: 20px 0;
 }
 
 ul {
     list-style-type: none;
+}
+
+.footer-a a{
+    color: #fff;
+}
+
+.footer-a a:hover{
+    color: #555;
 }
 
 .app-logo {
