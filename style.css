@@ -8,6 +8,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+html::-webkit-scrollbar {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #ff523b;
+    scroll-behavior: smooth;
+}
+
 #preloader {
     background: #fff url(images/preloader.gif) no-repeat center center;
     height: 100vh;
@@ -20,10 +29,11 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
-    background: #ffe4e1;
-    border-radius: 50px;
-    /* margin: 0 auto; */
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    height: 90px;
+    top: 0%;
 }
 
 nav {
@@ -42,7 +52,8 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #555;
+    /* color: #555; */
+    color: white;
     margin: 0 5px;
 }
 
@@ -57,8 +68,8 @@ li:hover {
     transition: 0.5s;
 }
 
-#MenuItems li a:hover {
-    color: white;
+#MenuItems li a{
+    color: #000;
 }
 
 .container {
@@ -196,6 +207,7 @@ li:hover {
     box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.3);
     transition: 0.5s;
     cursor: pointer;
+    background-attachment: fixed;
 }
 
 .row .col-3 img:hover {
@@ -257,7 +269,15 @@ li:hover {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
+}
+
+.shoes {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+     padding-top: 100px;
 }
 
 .col-4 {
@@ -424,7 +444,7 @@ h4 {
 
 .offer {
     background: radial-gradient(#fff, #ffd6d6);
-    margin-top: 80px;
+    margin-top: 50px;
     padding: 30px 0;
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
 }
@@ -867,7 +887,7 @@ form .btn:focus {
     max-height: 160px;
     width: 100%;
     overflow-x: auto;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .bar::-webkit-scrollbar {

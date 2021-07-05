@@ -23,6 +23,12 @@
     #myBtn{
         margin-left: 40.5%;
     }
+    .container{
+        margin-top: 25%;
+    }
+    .logo img{
+        width: 50%;
+    }
 }
 
 /* media query for menu */
