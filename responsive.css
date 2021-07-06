@@ -20,13 +20,15 @@
     .cart-info {
         display: none;
     }
-    #myBtn{
-        margin-left: 40.5%;
+    #myBtn {
+        /* display: block; */
+        bottom: 4vh;
+        left: 89vw;
     }
-    .container{
+    .container {
         margin-top: 25%;
     }
-    .logo img{
+    .logo img {
         width: 50%;
     }
 }
@@ -68,9 +70,6 @@
         position: relative;
         display: flex;
         margin-right: 0px;
-    }
-    #myBtn{
-        margin-left: 30%;
     }
 }
 
