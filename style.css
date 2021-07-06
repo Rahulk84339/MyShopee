@@ -34,6 +34,7 @@ html::-webkit-scrollbar-thumb {
     z-index: 5;
     height: 90px;
     top: 0%;
+    transition: .5s;
 }
 
 nav {
@@ -75,6 +76,7 @@ li:hover {
 .container {
     max-width: 1300px;
     margin: auto;
+    margin-top: 80px;
 }
 
 .alert p {
