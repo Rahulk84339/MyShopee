@@ -10,6 +10,7 @@ body {
 
 html::-webkit-scrollbar {
     scroll-behavior: smooth;
+    width: 10px;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -284,6 +285,7 @@ li:hover {
 
 .col-4 {
     flex-basis: 25%;
+    flex-wrap: wrap;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
@@ -808,7 +810,6 @@ form .btn:focus {
 }
 
 #myBtn {
-    /* display: none; */
     position: fixed;
     bottom: 5vh;
     left: 95vw;

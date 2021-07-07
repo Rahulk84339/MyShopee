@@ -6,6 +6,7 @@
     }
     .col-2, .col-3, .col-4 {
         flex-basis: 100%;
+        flex-wrap: wrap;
     }
     .single-product .row {
         text-align: left;
@@ -21,7 +22,6 @@
         display: none;
     }
     #myBtn {
-        /* display: block; */
         bottom: 4vh;
         left: 89vw;
     }
@@ -70,6 +70,9 @@
         position: relative;
         display: flex;
         margin-right: 0px;
+    }
+    html::-webkit-scrollbar-thumb {
+        background-color: #ff523b;
     }
 }
 
