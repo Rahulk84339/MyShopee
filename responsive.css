@@ -98,7 +98,7 @@
         grid-template-columns: 1fr;
         margin: 0 10px;
     }
-    .section {
+    .div {
         padding: 2rem 2rem 7rem 2rem;
     }
     .promotion-content h3 {
@@ -124,7 +124,7 @@
     .advert .advert-layout {
         grid-template-columns: 1fr;
     }
-    .section {
+    .div {
         padding: 1rem 0rem 4rem 0rem;
     }
 }
