@@ -26,6 +26,10 @@ html::-webkit-scrollbar-thumb {
     z-index: 100;
 }
 
+.header {
+    height: 90vh;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -70,7 +74,7 @@ li:hover {
     transition: 0.5s;
 }
 
-#MenuItems li a{
+#MenuItems li a {
     color: #000;
 }
 
@@ -88,7 +92,7 @@ li:hover {
 /* PROMOTION */
 
 .div {
-    padding: 2rem 5rem 7rem 5rem;
+    padding: 1rem 5rem 5rem 5rem;
 }
 
 .div .title {
@@ -99,7 +103,7 @@ li:hover {
 .div .title h2 {
     font-size: 3rem;
     font-weight: 400;
-    margin-bottom: 1.5rem;
+    margin-bottom: .5rem;
 }
 
 .div .title span {
@@ -116,6 +120,7 @@ li:hover {
     overflow: hidden;
     position: relative;
     z-index: 0;
+    border-radius: 5px;
 }
 
 .promotion-item img {
@@ -193,6 +198,7 @@ li:hover {
 .col-2 {
     flex-basis: 50%;
     min-width: 300px;
+    overflow: hidden;
 }
 
 .col-2 img {
@@ -201,10 +207,36 @@ li:hover {
 }
 
 .col-2 h1 {
-    font-size: 50px;
-    line-height: 60px;
-    margin: 25px 0;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5px;
+    padding-right: 50px;
+    background-color: #ff4545;
+    color: white;
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -2px;
+    font-family: Oswald, sans-serif;
+    text-indent: 5px;
+    /* animation: home 1.5s forwards;
+    animation-delay: 1.2s;
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+    animation-timing-function: ease;
+    transition: 1.2s cubic-bezier(.77,0,.175,1); */
 }
+
+/* @keyframes home {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40vw;
+    }
+} */
 
 .row .col-3 img {
     box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.3);
@@ -280,7 +312,7 @@ li:hover {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-     padding-top: 100px;
+    padding-top: 100px;
 }
 
 .col-4 {
@@ -819,7 +851,7 @@ form .btn:focus {
     background-color: red;
     color: white;
     cursor: pointer;
-    padding: 9px;
+    padding: 9px 10px;
     border-radius: 5%;
     opacity: 0.7;
     font-size: 15px;

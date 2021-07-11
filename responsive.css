@@ -1,39 +1,24 @@
-/* media query for less than 600 screen size */
 
-@media only screen and (max-width: 600px) {
-    .row {
-        text-align: center;
-    }
-    .col-2, .col-3, .col-4 {
-        flex-basis: 100%;
-        flex-wrap: wrap;
-    }
-    .single-product .row {
-        text-align: left;
-    }
-    .single-product .col-2 {
-        padding: 20px 0;
-    }
-    .single-product h1 {
-        font-size: 26px;
-        line-height: 32px;
-    }
-    .cart-info {
-        display: none;
-    }
-    #myBtn {
-        bottom: 4vh;
-        left: 89vw;
-    }
-    .container {
-        margin-top: 25%;
-    }
-    .logo img {
-        width: 50%;
+@media only screen and (max-width: 1200px) {
+    .promotion-content h3 {
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 5rem;
+        padding: 0.7rem 1.4rem;
+        font-size: 1.6rem;
     }
 }
 
-/* media query for menu */
+@media only screen and (max-width: 996px) {
+    .advert-layout .left {
+        right: 5%;
+    }
+    .advert-layout .right {
+        left: 5%;
+    }
+    .promotion-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 @media only screen and (max-width: 800px) {
     nav ul {
@@ -76,23 +61,6 @@
     }
 }
 
-/* media query for promotion card */
-
-@media only screen and (max-width: 1200px) {
-    .promotion-content h3 {
-        background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 5rem;
-        padding: 0.7rem 1.4rem;
-        font-size: 1.6rem;
-    }
-}
-
-@media only screen and (max-width: 996px) {
-    .promotion-layout {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 @media only screen and (max-width: 768px) {
     .promotion-layout {
         grid-template-columns: 1fr;
@@ -107,25 +75,62 @@
         font-weight: inherit;
         margin-bottom: 1rem;
     }
-}
-
-/* media query for advert layout */
-
-@media only screen and (max-width: 996px) {
-    .advert-layout .left {
-        right: 5%;
-    }
-    .advert-layout .right {
-        left: 5%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
     .advert .advert-layout {
         grid-template-columns: 1fr;
     }
-    .div {
-        padding: 1rem 0rem 4rem 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+    .single-product .row {
+        text-align: left;
+    }
+    .single-product .col-2 {
+        padding: 20px 0;
+    }
+    .single-product h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .cart-info {
+        display: none;
+    }
+    #myBtn {
+        bottom: 4vh;
+        left: 89vw;
+    }
+    .container {
+        margin-top: 25%;
+    }
+    .logo img {
+        width: 60%;
+    }
+    .header{
+        margin-bottom: 200px;
+    }
+    .col-2 h1{
+        margin-bottom: 5px;
+        padding-right: 40px;
+        background-color: #ff4545;
+        color: white;
+        display: block;
+        text-transform: uppercase;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 100;
+        letter-spacing: -2px;
+        font-family: Oswald, sans-serif;
+        float: left;
+    }
+    .row .col-2 p{
+        display: inline-block;
+        padding: 5px;
     }
 }
 
@@ -142,3 +147,43 @@
         transition: all 300ms ease-in-out;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .col-2 h1{
+        margin-bottom: 5px;
+        padding-right: 40px;
+        background-color: #ff4545;
+        color: white;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -2px;
+        font-family: Oswald, sans-serif;
+    }
+    .row .col-2 p{
+        display: inline-block;
+        padding: 5px;
+    }
+    .header{
+        margin-bottom: 30px;
+    }
+}
+
+/* 
+@media only screen and (max-width: 996px) {
+    .promotion-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
+
+
+/* @media only screen and (max-width: 768px) {
+    .advert .advert-layout {
+        grid-template-columns: 1fr;
+    }
+    .div {
+        padding: 1rem 0rem 4rem 0rem;
+    }
+} */
