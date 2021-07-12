@@ -9,30 +9,35 @@
     <link rel="icon" href="logo/cart1.png" type="image/icon type">
     <script src="https://kit.fontawesome.com/c67be3c0d9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="google-site-verification" content="sLoTepwHuZbYn8j2fmm409Q6TyJR7LKgNlYSa6RJZnc" />
 </head>
 
 <body>
     <div class="contact">
-        <div class="nav-container">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index.html"><img src="logo/white logo.png" width="50%"></a>
+
+        <div class="navbar" id="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="logo/transparent-logo.png" width="50%"></a>
+            </div>
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="#">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="account.html">Account</a>
                 </div>
-                <nav>
-                    <ul id="MenuItems">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="account.html">Account</a></li>
-                    </ul>
-                </nav>
-                <a href="cart.html"><img src="images/white cart icon.png" width="30px" height="30px"></a>
-                <img src="images/white menu icon.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             </div>
         </div>
+
         <div class="content">
             <h2>Contact Us</h2>
             <p>Life is hard enough already.Let us make it a little easier.</p>
@@ -84,20 +89,7 @@
         </div>
     </div>
 
-    <!-- js for toggle menu -->
-
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-        MenuItems.style.maxHeight = "0px";
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "200px";
-            }
-            else {
-                MenuItems.style.maxHeight = "0px";
-            }
-        }
-    </script>
+    <script src="index.js"></script>
 
 </body>
 

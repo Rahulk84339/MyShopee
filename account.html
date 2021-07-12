@@ -17,21 +17,26 @@
 </head>
 
 <body>
+
     <div class="navbar" id="navbar">
         <div class="logo">
             <a href="index.html"><img src="logo/transparent-logo.png" width="50%"></a>
         </div>
-        <nav>
-            <ul id="MenuItems">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="account.html">Account</a></li>
-            </ul>
-        </nav>
-        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
-        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="#">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="account.html">Account</a>
+            </div>
+        </div>
+        <div>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
     </div>
 
     <!----------------------------------------------- account page ------------------------------------------------>
@@ -111,51 +116,7 @@
         </div>
     </div>
 
-    <!-- js for toggle menu -->
-
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-        MenuItems.style.maxHeight = "0px";
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "200px";
-            }
-            else {
-                MenuItems.style.maxHeight = "0px";
-            }
-        }
-    </script>
-
-    <!-- js for toggle form -->
-
-    <script>
-        var LoginForm = document.getElementById("LoginForm");
-        var RegForm = document.getElementById("RegForm");
-        var Indicator = document.getElementById("Indicator");
-
-        function register() {
-            RegForm.style.transform = "translateX(0px)";
-            LoginForm.style.transform = "translateX(0px)";
-            Indicator.style.transform = "translateX(100px)";
-        }
-
-        function login() {
-            RegForm.style.transform = "translateX(300px)";
-            LoginForm.style.transform = "translateX(300px)";
-            Indicator.style.transform = "translateX(0px)";
-        }
-    </script>
-
-    <script>
-        window.onscroll = function () {
-            if (window.pageYOffset > 10) {
-                document.getElementById('navbar').style.backgroundColor = "rgba(255, 82, 59, 0.9)";
-            }
-            else {
-                document.getElementById('navbar').style.backgroundColor = "transparent";
-            }
-        };
-    </script>
+    <script src="index.js"></script>
 
 </body>
 

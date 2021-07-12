@@ -6,6 +6,11 @@
         padding: 0.7rem 1.4rem;
         font-size: 1.6rem;
     }
+    .col-2 span p{
+        display: block;
+        width: 40%;
+        /* margin-right: 35%; */
+    }
 }
 
 @media only screen and (max-width: 996px) {
@@ -31,31 +36,27 @@
         letter-spacing: -2px;
         font-family: Oswald, sans-serif;
     }
-    .container .row .col-2 p{
-        display: inline-block;
-        padding: 5px;
+    .col-2 p{
+        display: block;
+        background: rgba(255, 82, 59, 0.3);
+        width: 65%;
+        margin-bottom: 5px;
+        float: left;
+        padding-right: 10px;
+        margin-right: 10%;
+    }
+    .col-2 span p{
+        display: block;
+        width: 60%;
+        margin-right: 35%;
+    }
+    .header{
+        margin-bottom: 0px;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    nav ul {
-        position: absolute;
-        top: 80px;
-        left: 0;
-        background: #fff;
-        width: 100%;
-        overflow: hidden;
-        transition: max-height 0.5s;
-    }
-    nav ul li {
-        display: flex;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        justify-content: center;
-    }
-    nav ul li a {
-        color: #fff;
-    }
+  
     .menu-icon {
         display: block;
         cursor: pointer;
@@ -89,9 +90,17 @@
         letter-spacing: -2px;
         font-family: Oswald, sans-serif;
     }
-    .container .row .col-2 p{
-        display: inline-block;
-        padding: 5px;
+    .col-2 p{
+        display: block;
+        background: rgba(255, 82, 59, 0.3);
+        width: 70%;
+        margin-bottom: 5px;
+        float: left;
+        padding-left: 10px;
+    }
+    .col-2 span p{
+        width: 65%;
+        float: left;
     }
 }
 
@@ -125,9 +134,18 @@
         letter-spacing: -2px;
         font-family: Oswald, sans-serif;
     }
-    .container .row .col-2 p{
-        display: inline-block;
-        padding: 5px;
+    .col-2 p{
+        display: block;
+        background: rgba(255, 82, 59, 0.3);
+        width: 70%;
+        margin-bottom: 5px;
+        float: left;
+        padding-left: 10px;
+        margin-left: 0;
+    }
+    .col-2 span p{
+        float: left;
+        width: 65%;
     }
 }
 
@@ -160,10 +178,14 @@
         left: 89vw;
     }
     .container {
-        margin-top: 25%;
+        margin-top: 20vh;
+    }
+    .logo{
+        display: inline-block;
+        width: 70%;
     }
     .logo img {
-        width: 55%;
+        width: 65%;
     }
     .header{
         margin-bottom: 200px;
@@ -182,9 +204,21 @@
         font-family: Oswald, sans-serif;
         float: left;
     }
-    .row .col-2 p{
-        display: inline-block;
-        padding: 5px;
+    .col-2 p{
+        display: block;
+        background: rgba(255, 82, 59, 0.3);
+        width: 60vw;
+        margin-bottom: 5px;
+        float: right;
+        padding-left: 10px;
+        margin-right: 0;
+        text-align: right;
+    }
+    .col-2 span p{
+        width: 70vw;
+        margin-right: 0;
+        margin-left: 20%;
+        float: right;
     }
 }
 
@@ -213,9 +247,21 @@
         letter-spacing: -2px;
         font-family: Oswald, sans-serif;
     }
-    .container .row .col-2 p{
-        display: inline-block;
-        padding: 5px;
+    .col-2 p{
+        display: block;
+        background: rgba(255, 82, 59, 0.3);
+        width: 60vw;
+        margin-bottom: 5px;
+        float: right;
+        padding-left: 10px;
+        margin-right: 0;
+        text-align: right;
+    }
+    .col-2 span p{
+        width: 70vw;
+        margin-right: 0;
+        margin-left: 20%;
+        float: right;
     }
 }
 
@@ -233,31 +279,24 @@
         letter-spacing: -2px;
         font-family: Oswald, sans-serif;
     }
-    .container .row .col-2 p{
-        display: inline-block;
-        padding: 5px;
-    }
     .header{
         margin-bottom: 20px;
     }
     .small-container .row{
         grid-template-columns: 2fr;
     }
+    .col-2 p{
+        display: block;
+        background: rgba(255, 82, 59, 0.3);
+        width: 65%;
+        margin-bottom: 5px;
+        float: right;
+        padding-left: 10px;
+        text-align: right;
+    }
+    .col-2 span p{
+        width: 70%;
+        text-align: right;
+        float: right;
+    }
 }
-
-/* 
-@media only screen and (max-width: 996px) {
-    .promotion-layout {
-        grid-template-columns: repeat(2, 1fr);
-    }
-} */
-
-
-/* @media only screen and (max-width: 768px) {
-    .advert .advert-layout {
-        grid-template-columns: 1fr;
-    }
-    .div {
-        padding: 1rem 0rem 4rem 0rem;
-    }
-} */

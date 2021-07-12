@@ -22,29 +22,35 @@
     <div id="preloader"></div>
 
     <div class="header">
-        <!-- <div class="container"> -->
+
         <div class="navbar" id="navbar">
             <div class="logo">
                 <a href="index.html"><img src="logo/transparent-logo.png" width="50%"></a>
             </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
-                </ul>
-            </nav>
-            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
-            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="#">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="account.html">Account</a>
+                </div>
+            </div>
+            <div>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
         </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-2">
                     <h1>Favorite brands</h1>
                     <h1>And hottest trends!</h1>
-                    <p><i>Life is hard enough already.Let us make it a little easier.</i></p>
+                    <p><i>Life is hard enough already.</i></p>
+                    <span><p><i>Let us make it a little easier.</i></p></span>
                     <a href="products.html" class="btn">Explore Now &#8594;</a>
                 </div>
                 <div class="col-2">
@@ -52,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <!-- </div> -->
+        <!-- container end -->
     </div>
 
     <div class="div promotion">
@@ -111,16 +117,19 @@
             </div>
         </div>
     </div>
+    <!-- div promotion end -->
 
     <div id="slider">
         <figure>
             <img src="images/hd slider.jpg" height="500px">
             <img src="images/cart.jpg" height="500px">
             <img src="images/fashion slider.jpg" height="500px">
-            <img src="images/slideshow shoes.jpg" height="500px">
+            <img src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                height="500px">
             <img src="images/hd slider.jpg" height="500px">
         </figure>
     </div>
+    <!-- slider end -->
 
     <div class="categories">
         <div class="small-container">
@@ -137,6 +146,7 @@
             </div>
         </div>
     </div>
+    <!-- categories end -->
 
     <!-------------------------------------------- trending products ---------------------------------------------->
     <div class="small-container">
@@ -216,6 +226,7 @@
                 </div>
             </div>
         </div>
+        <!-- trending products end -->
 
         <!--------------------------------------------- latest-products -------------------------------------------->
         <h2 class="title">Latest products</h2>
@@ -328,8 +339,9 @@
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
         </div>
-
+        <!-- latest-products end -->
     </div>
+    <!-- small container end -->
 
     <!------------------------------------------------ offer ------------------------------------------------------>
     <div class="offer">
@@ -349,6 +361,7 @@
             </div>
         </div>
     </div>
+    <!-- offer end -->
 
     <!----------------------------------------------- brands ------------------------------------------------------>
     <div class="brands">
@@ -380,6 +393,7 @@
             </div>
         </div>
     </div>
+    <!-- brands end -->
 
     <!------------------------------------------------ footer ----------------------------------------------------->
     <div class="footer">
@@ -422,68 +436,11 @@
             <p class="copyright">Copyright 2021 - MyShopee</p>
         </div>
     </div>
+    <!-- footer end -->
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
 
-    <!------------------------------------------- js for top button ----------------------------------------------->
-
-    <script>
-        //Get the button
-        var mybutton = document.getElementById("myBtn");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () { scrollFunction() };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-
-    <!------------------------------------------- js for toggle menu ---------------------------------------------->
-
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-        MenuItems.style.maxHeight = "0px";
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "200px";
-            }
-            else {
-                MenuItems.style.maxHeight = "0px";
-            }
-        }
-    </script>
-
-    <!---------------------------------------------js for loader -------------------------------------------------->
-
-    <script>
-        var loader = document.getElementById("preloader");
-        window.addEventListener("load", function () {
-            loader.style.display = "none";
-        })
-    </script>
-
-<script>
-    window.onscroll = function () {
-        if (window.pageYOffset > 50) {
-            document.getElementById('navbar').style.backgroundColor = "rgba(255, 82, 59, 0.9)";
-        }
-        else {
-            document.getElementById('navbar').style.backgroundColor = "transparent";
-        }
-    };
-</script>
-
+    <script src="index.js"></script>
 </body>
 
 </html>

@@ -32,7 +32,6 @@ html::-webkit-scrollbar-thumb {
 
 .navbar {
     display: flex;
-    align-items: center;
     padding: 20px;
     width: 100%;
     position: fixed;
@@ -40,20 +39,8 @@ html::-webkit-scrollbar-thumb {
     height: 90px;
     top: 0%;
     transition: .5s;
-}
-
-nav {
-    flex: 1;
-    text-align: right;
-}
-
-nav ul {
-    display: inline-block;
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
+    justify-content:space-between;
+    align-items: center;
 }
 
 a {
@@ -67,26 +54,62 @@ p {
     color: #555;
 }
 
-li:hover {
-    color: white;
-    background-color: #ff523b;
-    border-radius: 50px;
-    transition: 0.5s;
-}
-
-#MenuItems li a {
-    color: #000;
-}
-
 .container {
     max-width: 1300px;
     margin: auto;
     margin-top: 80px;
 }
 
-.alert p {
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
     text-align: center;
-    color: red;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
 }
 
 /* PROMOTION */
@@ -201,6 +224,21 @@ li:hover {
     overflow: hidden;
 }
 
+.col-2 p{
+    display: block;
+    background: rgba(255, 82, 59, 0.3);
+    width: 50%;
+    margin-bottom: 5px;
+    float: left;
+    padding-right: 10px;
+    margin-right: 10%;
+}
+.col-2 span p{
+    display: block;
+    width: 40%;
+    margin-right: 35%;
+}
+
 .col-2 img {
     max-width: 100%;
     padding: 50px 0;
@@ -220,23 +258,7 @@ li:hover {
     letter-spacing: -2px;
     font-family: Oswald, sans-serif;
     text-indent: 5px;
-    /* animation: home 1.5s forwards;
-    animation-delay: 1.2s;
-    overflow: hidden;
-    word-wrap: normal;
-    white-space: nowrap;
-    animation-timing-function: ease;
-    transition: 1.2s cubic-bezier(.77,0,.175,1); */
 }
-
-/* @keyframes home {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 40vw;
-    }
-} */
 
 .row .col-3 img {
     box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.3);
@@ -869,6 +891,7 @@ form .btn:focus {
     justify-items: center;
     margin-bottom: 60px;
     box-shadow: 0 6px 10px 0 rgb(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 #slider figure {
@@ -877,6 +900,7 @@ form .btn:focus {
     margin: auto;
     left: 0;
     animation: 20s slider infinite;
+    animation-timing-function: ease;
 }
 
 #slider figure img {
@@ -980,15 +1004,3 @@ form .btn:focus {
     display: inline-block;
     width: 100%;
 }
-
-/* add to cart */
-
-/* .small-container .row .col-4 .add-to-cart {
-    display: flex;
-    text-align: center;
-    color: #fff;
-    background: #ff523b;
-    width: 100px;
-    justify-content: center;
-    border-radius: 50px;
-} */
