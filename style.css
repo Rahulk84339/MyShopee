@@ -39,7 +39,7 @@ html::-webkit-scrollbar-thumb {
     height: 90px;
     top: 0%;
     transition: .5s;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -224,7 +224,7 @@ p {
     overflow: hidden;
 }
 
-.col-2 p{
+.col-2 p {
     display: block;
     background: rgba(255, 82, 59, 0.3);
     width: 50%;
@@ -233,7 +233,8 @@ p {
     padding-right: 10px;
     margin-right: 10%;
 }
-.col-2 span p{
+
+.col-2 span p {
     display: block;
     width: 40%;
     margin-right: 35%;
@@ -326,7 +327,10 @@ p {
     margin: auto;
     padding-left: 17px;
     padding-right: 20px;
-    /* padding-top: 50px; */
+}
+
+.bag {
+    margin-top: 15vh;
 }
 
 .shoes {
@@ -891,7 +895,6 @@ form .btn:focus {
     justify-items: center;
     margin-bottom: 60px;
     box-shadow: 0 6px 10px 0 rgb(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.2);
-
 }
 
 #slider figure {
