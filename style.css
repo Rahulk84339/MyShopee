@@ -45,7 +45,6 @@ html::-webkit-scrollbar-thumb {
 
 a {
     text-decoration: none;
-    /* color: #555; */
     color: white;
     margin: 0 5px;
 }
@@ -224,7 +223,7 @@ p {
     overflow: hidden;
 }
 
-.col-2 p {
+.home-heading p {
     display: block;
     background: rgba(255, 82, 59, 0.3);
     width: 50%;
@@ -234,7 +233,7 @@ p {
     margin-right: 10%;
 }
 
-.col-2 span p {
+.home-heading span p {
     display: block;
     width: 40%;
     margin-right: 35%;
@@ -245,7 +244,7 @@ p {
     padding: 50px 0;
 }
 
-.container .row .col-2 h1 {
+.home-heading h1 {
     display: inline-block;
     position: relative;
     margin-bottom: 5px;
