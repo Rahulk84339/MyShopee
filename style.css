@@ -233,6 +233,10 @@ p {
     margin-right: 10%;
 }
 
+.home-heading span h1 {
+    width: 35vw;
+}
+
 .home-heading span p {
     display: block;
     width: 40%;
@@ -245,16 +249,16 @@ p {
 }
 
 .home-heading h1 {
-    display: inline-block;
-    position: relative;
+    display: block;
     margin-bottom: 5px;
-    padding-right: 50px;
+    width: 42vw;
+    /* padding-right: 20px; */
     background-color: #ff4545;
     color: white;
     text-transform: uppercase;
     font-size: 45px;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: -2px;
     font-family: Oswald, sans-serif;
     text-indent: 5px;
