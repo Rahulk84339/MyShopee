@@ -153,12 +153,16 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .row {
-        text-align: center;
-    }
-    .col-2, .col-3, .col-4 {
+    .col-2, .col-3 {
         flex-basis: 100%;
         flex-wrap: wrap;
+    }
+    .col-4 {
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .row {
+        text-align: center;
     }
     .small-container .row {
         grid-template-columns: repeat(2, 2fr);
@@ -241,6 +245,13 @@
 }
 
 @media only screen and (max-width: 567px) {
+    .col-3{
+        flex-basis: 80%;
+    }
+    .col-4 {
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
     .advert-layout .content span {
         font-size: 1rem;
         margin-bottom: 0.6rem;
@@ -301,6 +312,13 @@
 }
 
 @media only screen and (max-width: 448px) {
+    .col-3{
+        flex-basis: 100%;
+    }
+    .col-4 {
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
     .home-heading {
         display: block;
         width: 100vw;
@@ -393,5 +411,12 @@
     .div .title {
         margin-bottom: 0px;
         padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 436px) {
+    .small-container .row .col-4 {
+        flex-basis: 100%;
+        flex-wrap: wrap;
     }
 }
