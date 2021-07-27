@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    animation-timing-function: ease-in;
 }
 
 body {
@@ -63,6 +64,64 @@ p {
     margin-top: 80px;
 }
 
+#slider {
+    overflow: hidden;
+    height: 500px;
+    width: 90%;
+    justify-items: center;
+    text-align: center;
+    box-shadow: 0 6px 10px 0 rgb(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 70px;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: auto;
+    margin-bottom: 70px;
+    /* left: 0; */
+    animation: 20s slider infinite;
+    animation-timing-function: ease;
+}
+
+#slider figure img {
+    float: left;
+    width: 20%;
+    background-size: cover;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -102,17 +161,6 @@ p {
     top: 20px;
     right: 45px;
     font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-    .overlay a {
-        font-size: 20px
-    }
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
 }
 
 /* PROMOTION */
@@ -893,60 +941,6 @@ form .btn:focus {
 
 #myBtn:hover {
     color: #000;
-}
-
-#slider {
-    overflow: hidden;
-    height: 500px;
-    width: 100%;
-    justify-items: center;
-    margin-bottom: 60px;
-    box-shadow: 0 6px 10px 0 rgb(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.2);
-}
-
-#slider figure {
-    position: relative;
-    width: 500%;
-    margin: auto;
-    left: 0;
-    animation: 20s slider infinite;
-    animation-timing-function: ease;
-}
-
-#slider figure img {
-    float: left;
-    width: 20%;
-    background-size: cover;
-}
-
-@keyframes slider {
-    0% {
-        left: 0;
-    }
-    20% {
-        left: 0;
-    }
-    25% {
-        left: -100%;
-    }
-    45% {
-        left: -100%;
-    }
-    50% {
-        left: -200%;
-    }
-    70% {
-        left: -200%;
-    }
-    75% {
-        left: -300%;
-    }
-    95% {
-        left: -300%;
-    }
-    100% {
-        left: -400%;
-    }
 }
 
 /* categories */
