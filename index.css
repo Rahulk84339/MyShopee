@@ -277,6 +277,7 @@ p {
 
 .home-heading p {
     display: block;
+    color: black;
     background: rgba(255, 82, 59, 0.3);
     width: 50%;
     margin-bottom: 5px;
@@ -291,6 +292,7 @@ p {
 
 .home-heading span p {
     display: block;
+    color: black;
     width: 40%;
     margin-right: 35%;
 }
