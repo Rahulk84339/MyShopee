@@ -606,8 +606,8 @@ small {
     background: #ff523b;
     color: #fff;
     font-size: 14px;
-    /* padding: 60px 0 20px; */
     padding: 1px 8px 20px;
+    background-attachment: fixed;
 }
 
 .footer p {
