@@ -401,15 +401,31 @@
         display: flex;
         justify-content: center;
     }
+    .promotion .title h2 {
+        font-size: 45px;
+    }
+    .promotion .title span {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .promotion .title {
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 448px) {
     .header {
         margin-bottom: 150px;
     }
+    .promotion .title h2 {
+        font-size: 45px;
+    }
+    .promotion .title span {
+        font-size: 13px;
+        font-weight: bold;
+    }
     .promotion .title {
-        margin: 0;
-        padding: 0;
+        margin-bottom: 0;
     }
     #slider {
         overflow: hidden;
@@ -417,7 +433,6 @@
         width: 90%;
         justify-items: center;
         text-align: center;
-        /* margin-bottom: 70px; */
         box-shadow: 0 6px 10px 0 rgb(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.2);
         margin: auto;
         border-radius: 10px;
@@ -519,9 +534,22 @@
     .container {
         margin-top: 15vh;
     }
+    .footer-container {
+        margin-top: 5vh;
+    }
     .div .title {
         margin-bottom: 0px;
         padding-bottom: 0px;
+    }
+    .promotion .title h2 {
+        font-size: 45px;
+    }
+    .promotion .title span {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .promotion .title {
+        margin-bottom: 0;
     }
 }
 
