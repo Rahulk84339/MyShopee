@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Dancing+Script:wght@500&display=swap');
 @media only screen and (max-width: 1200px) {
     .header {
         height: 50vh;
@@ -23,11 +24,13 @@
     .home-heading span h1 {
         width: 80%;
         font-size: 43px;
+        font-family: 'Abril Fatface', cursive;
     }
     .home-heading h1 {
         width: 95%;
         margin-bottom: 10px;
         font-size: 43px;
+        font-family: 'Abril Fatface', cursive;
     }
     .container .row .home-heading p {
         display: block;
@@ -46,6 +49,9 @@
         float: left;
         font-size: 25px;
         text-align: left;
+    }
+    .footer-container {
+        margin-top: 5vh;
     }
 }
 
@@ -85,10 +91,12 @@
     .container .row .home-heading span h1 {
         width: 60%;
         font-size: 45px;
+        font-family: 'Abril Fatface', cursive;
     }
     .container .row .home-heading h1 {
         width: 80%;
         margin-bottom: 10px;
+        font-family: 'Abril Fatface', cursive;
         font-size: 45px;
     }
     .container .row .home-heading p {
@@ -149,11 +157,13 @@
     .container .row .home-heading span h1 {
         width: 60%;
         font-size: 45px;
+        font-family: 'Abril Fatface', cursive;
     }
     .container .row .home-heading h1 {
         width: 80%;
         margin-bottom: 10px;
         font-size: 45px;
+        font-family: 'Abril Fatface', cursive;
     }
     .container .row .home-heading p {
         display: block;
@@ -209,11 +219,13 @@
         width: 60%;
         font-size: 35px;
         margin-bottom: 5px;
+        font-family: 'Abril Fatface', cursive;
     }
     .container .row .home-heading h1 {
         width: 80%;
         margin-bottom: 10px;
         font-size: 35px;
+        font-family: 'Abril Fatface', cursive;
     }
     .container .row .home-heading p {
         display: block;
@@ -243,6 +255,9 @@
     .btn {
         text-align: center;
     }
+    .promotion .title h2 {
+        font-size: 60px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -269,6 +284,9 @@
     .single-product h1 {
         font-size: 26px;
         line-height: 32px;
+    }
+    .promotion .title h2 {
+        font-size: 60px;
     }
     .cart-info {
         display: none;
@@ -302,6 +320,7 @@
         margin-right: 40px;
         width: 60%;
         font-size: 30px;
+        font-family: 'Abril Fatface', cursive;
     }
     .container .row .home-heading h1 {
         text-align: left;
@@ -313,8 +332,8 @@
         text-transform: uppercase;
         font-size: 30px;
         font-weight: 100;
-        letter-spacing: -2px;
-        font-family: Oswald, sans-serif;
+        letter-spacing: -1px;
+        font-family: 'Abril Fatface', cursive;
         float: left;
     }
     .container .row .home-heading p {
@@ -363,6 +382,7 @@
         margin-right: 40px;
         width: 70%;
         font-size: 30px;
+        font-family: 'Abril Fatface', cursive;
     }
     .container .row .home-heading h1 {
         text-align: left;
@@ -377,8 +397,8 @@
         font-size: 30px;
         line-height: 1.2;
         font-weight: 100;
-        letter-spacing: -2px;
-        font-family: Oswald, sans-serif;
+        letter-spacing: -1px;
+        font-family: 'Abril Fatface', cursive;
         float: left;
     }
     .container .row .home-heading p {
@@ -402,14 +422,14 @@
         justify-content: center;
     }
     .promotion .title h2 {
-        font-size: 45px;
+        font-size: 60px;
     }
     .promotion .title span {
         font-size: 13px;
         font-weight: bold;
     }
     .promotion .title {
-        margin-bottom: 0;
+        margin-bottom: 30px;
     }
 }
 
@@ -418,14 +438,14 @@
         margin-bottom: 150px;
     }
     .promotion .title h2 {
-        font-size: 45px;
+        font-size: 55px;
     }
     .promotion .title span {
         font-size: 13px;
         font-weight: bold;
     }
     .promotion .title {
-        margin-bottom: 0;
+        margin-bottom: 30px;
     }
     #slider {
         overflow: hidden;
@@ -452,6 +472,7 @@
         display: block;
         margin-right: 40px;
         width: 70%;
+        font-family: 'Abril Fatface', cursive;
         font-size: 30px;
     }
     .container .row .home-heading h1 {
@@ -467,8 +488,8 @@
         font-size: 30px;
         line-height: 1.2;
         font-weight: 100;
-        letter-spacing: -2px;
-        font-family: Oswald, sans-serif;
+        letter-spacing: -1px;
+        font-family: 'Abril Fatface', cursive;
         float: left;
     }
     .container .row .home-heading p {
@@ -494,6 +515,7 @@
     .container .row .home-heading span h1 {
         display: block;
         margin-right: 40px;
+        font-family: 'Abril Fatface', cursive;
         width: 80%;
     }
     .container .row .home-heading h1 {
@@ -508,8 +530,8 @@
         font-size: 30px;
         line-height: 1.2;
         font-weight: 400;
-        letter-spacing: -2px;
-        font-family: Oswald, sans-serif;
+        letter-spacing: -1px;
+        font-family: 'Abril Fatface', cursive;
     }
     .header {
         margin-bottom: 100px;
@@ -542,14 +564,14 @@
         padding-bottom: 0px;
     }
     .promotion .title h2 {
-        font-size: 45px;
+        font-size: 55px;
     }
     .promotion .title span {
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
     }
     .promotion .title {
-        margin-bottom: 0;
+        margin-bottom: 30px;
     }
 }
 

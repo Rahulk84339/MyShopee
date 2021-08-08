@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Dancing+Script:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -176,11 +178,12 @@ p {
 
 .div .title h2 {
     font-size: 3rem;
-    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
     margin-bottom: .5rem;
 }
 
 .div .title span {
+    font-family: 'Bebas Neue', cursive;
     color: #828282;
 }
 
@@ -286,9 +289,6 @@ p {
     margin-right: 10%;
 }
 
-.home-heading span h1 {
-    width: 35vw;
-}
 
 .home-heading span p {
     display: block;
@@ -302,19 +302,22 @@ p {
     padding: 50px 0;
 }
 
+.home-heading span h1 {
+    width: 35vw;
+    font-family: 'Abril Fatface', cursive;
+}
 .home-heading h1 {
     display: block;
     margin-bottom: 5px;
     width: 42vw;
-    /* padding-right: 20px; */
     background-color: #ff4545;
     color: white;
     text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
     font-size: 45px;
     line-height: 1.2;
     font-weight: 500;
-    letter-spacing: -2px;
-    font-family: Oswald, sans-serif;
+    letter-spacing: -1px;
     text-indent: 5px;
 }
 
@@ -601,6 +604,10 @@ small {
 }
 
 /* footer */
+
+.footer-container {
+    margin-top: 5vh;
+}
 
 .footer {
     background: #ff523b;
