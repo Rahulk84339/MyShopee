@@ -118,6 +118,13 @@
         text-align: right;
         font-size: 25px;
     }
+    .p-title::after {
+        left: 50%;
+    }
+    .size {
+        position: relative;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 800px) {

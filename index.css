@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Dancing+Script:wght@500&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -289,7 +288,6 @@ p {
     margin-right: 10%;
 }
 
-
 .home-heading span p {
     display: block;
     color: black;
@@ -306,6 +304,7 @@ p {
     width: 35vw;
     font-family: 'Abril Fatface', cursive;
 }
+
 .home-heading h1 {
     display: block;
     margin-bottom: 5px;
@@ -505,6 +504,8 @@ p {
     position: relative;
     line-height: 60px;
     color: #555;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
 }
 
 .title::after {
@@ -588,6 +589,8 @@ small {
 .brands .small-container p {
     text-align: center;
     padding-bottom: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 15px;
 }
 
 .col-5 {
