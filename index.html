@@ -8,14 +8,12 @@
     <title>MyShopee | Online Shopping Store</title>
     <link rel="icon" href="logo/cart1.png" type="image/icon type">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <script src="https://kit.fontawesome.com/c67be3c0d9.js" crossorigin="anonymous"></script>
     <meta name="google-site-verification" content="sLoTepwHuZbYn8j2fmm409Q6TyJR7LKgNlYSa6RJZnc" />
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="add-to-cart.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
 
@@ -46,7 +44,6 @@
         </div>
 
         <div class="container">
-
             <div class="row">
                 <div class="home-heading">
                     <span>
@@ -158,13 +155,13 @@
     <!-- categories end -->
 
     <!-- trending products -->
-    <div class="small-container">
+ 
         <h2 class="title">Trending products</h2>
-        <div class="row">
-            <div class="col-4">
+        <div class="row-container">
+            <div class="col-container">
                 <a href="products detail.html"><img src="images/product-1.jpg"></a>
                 <h4>Red Printed T-Shirt</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -174,10 +171,10 @@
                 <p>Rs.399</p>
                 <a href="cart.html" class="add-to-cart" onclick="cart">Add to cart</a>
             </div>
-            <div class="col-4">
+            <div class="col-container">
                 <img src="images/product-2.jpg">
                 <h4>Black Shoes by HRX</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -187,10 +184,10 @@
                 <p>Rs.1999</p>
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
-            <div class="col-4">
+            <div class="col-container">
                 <img src="images/product-3.jpg">
                 <h4>Joggers track Pant</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -200,10 +197,10 @@
                 <p>Rs.699</p>
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
-            <div class="col-4">
+            <div class="col-container">
                 <img src="images/watches-2.jpg">
                 <h4>Wrist Watches</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -214,7 +211,8 @@
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
         </div>
-
+     <!-- trending products end -->
+        <div class="small-container">
         <div class="div advert">
             <div class="advert-layout container">
                 <div class="item ">
@@ -235,15 +233,16 @@
                 </div>
             </div>
         </div>
-        <!-- trending products end -->
+        </div>
+         <!-- small container end -->
 
         <!-- latest-products -->
         <h2 class="title">Latest products</h2>
-        <div class="row">
-            <div class="col-4">
+         <div class="row-container">
+            <div class="col-container">
                 <img src="images/product-5.jpg">
                 <h4>Shoes</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -253,10 +252,10 @@
                 <p>Rs.899</p>
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
-            <div class="col-4">
+            <div class="col-container">
                 <img src="images/product-6.jpg">
                 <h4>Black Puma T-Shirt</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -266,10 +265,10 @@
                 <p>Rs.690</p>
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
-            <div class="col-4">
+            <div class="col-container">
                 <img src="images/product-7.jpg">
                 <h4>Socks by HRX</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -279,10 +278,10 @@
                 <p>Rs.399</p>
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
-            <div class="col-4">
+            <div class="col-container">
                 <img src="images/product-8.jpg">
                 <h4>Fossil Watch</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -292,13 +291,10 @@
                 <p>Rs.4999</p>
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-4">
+            <div class="col-container">
                 <img src="images/product-9.jpg">
                 <h4>Wrist Watches</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -308,10 +304,10 @@
                 <p>Rs.650</p>
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
-            <div class="col-4">
+            <div class="col-container">
                 <img src="images/product-10.jpg">
                 <h4>Men's Sports Running Shoes</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -321,10 +317,10 @@
                 <p>Rs.1299</p>
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
-            <div class="col-4">
+            <div class="col-container">
                 <img src="images/product-11.jpg">
                 <h4>Sports Shoes</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -334,10 +330,10 @@
                 <p>Rs.699</p>
                 <a href="cart.html" class="add-to-cart">Add to cart</a>
             </div>
-            <div class="col-4">
+            <div class="col-container">
                 <img src="images/product-12.jpg">
                 <h4>Trouser for Men</h4>
-                <div class="rating">
+                <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -349,8 +345,6 @@
             </div>
         </div>
         <!-- latest-products end -->
-    </div>
-    <!-- small container end -->
 
     <!-- offer -->
     <div class="offer">

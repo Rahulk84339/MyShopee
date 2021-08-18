@@ -1,601 +1,682 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Dancing+Script:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Dancing+Script:wght@500&display=swap");
 @media only screen and (max-width: 1200px) {
-    .header {
-        height: 50vh;
-        margin-bottom: 200px;
-    }
-    .promotion-content h3 {
-        background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 5rem;
-        padding: 0.7rem 1.4rem;
-        font-size: 1.6rem;
-    }
-    .container .row {
-        display: flex;
-        justify-content: space-between;
-    }
-    .container .row .col-2 {
-        float: right;
-    }
-    .home-heading {
-        width: 50vw;
-        float: left;
-    }
-    .home-heading span h1 {
-        width: 80%;
-        font-size: 43px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    .home-heading h1 {
-        width: 95%;
-        margin-bottom: 10px;
-        font-size: 43px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    .container .row .home-heading p {
-        display: block;
-        background: rgba(255, 82, 59, 0.3);
-        width: 90%;
-        margin-bottom: 5px;
-        float: left;
-        padding-left: 10px;
-        margin-right: 0;
-        text-align: left;
-        font-size: 25px;
-    }
-    .container .row .home-heading span p {
-        width: 75%;
-        margin-right: 0;
-        float: left;
-        font-size: 25px;
-        text-align: left;
-    }
-    .footer-container {
-        margin-top: 5vh;
-    }
+  .header {
+    height: 50vh;
+    margin-bottom: 200px;
+  }
+  .promotion-content h3 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5rem;
+    padding: 0.7rem 1.4rem;
+    font-size: 1.6rem;
+  }
+  .container .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .row .col-2 {
+    float: right;
+  }
+  .home-heading {
+    width: 50vw;
+    float: left;
+  }
+  .home-heading span h1 {
+    width: 80%;
+    font-size: 43px;
+    font-family: "Abril Fatface", cursive;
+  }
+  .home-heading h1 {
+    width: 95%;
+    margin-bottom: 10px;
+    font-size: 43px;
+    font-family: "Abril Fatface", cursive;
+  }
+  .container .row .home-heading p {
+    display: block;
+    background: rgba(255, 82, 59, 0.3);
+    width: 90%;
+    margin-bottom: 5px;
+    float: left;
+    padding-left: 10px;
+    margin-right: 0;
+    text-align: left;
+    font-size: 25px;
+  }
+  .container .row .home-heading span p {
+    width: 75%;
+    margin-right: 0;
+    float: left;
+    font-size: 25px;
+    text-align: left;
+  }
+  .footer-container {
+    margin-top: 5vh;
+  }
 }
 
 @media only screen and (max-width: 996px) {
-    .header {
-        height: 50vh;
-        margin-bottom: 300px;
-    }
-    .container {
-        margin-top: 20vh;
-    }
-    .col-2 {
-        flex-basis: 100%;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-    #myBtn {
-        bottom: 4vh;
-        left: 89vw;
-    }
-    .btn {
-        text-align: center;
-    }
-    .advert-layout .left {
-        right: 5%;
-    }
-    .advert-layout .right {
-        left: 5%;
-    }
-    .promotion-layout {
-        grid-template-columns: repeat(2, 3fr);
-    }
-    .home-heading {
-        display: block;
-        width: 100vw;
-    }
-    .container .row .home-heading span h1 {
-        width: 60%;
-        font-size: 45px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    .container .row .home-heading h1 {
-        width: 80%;
-        margin-bottom: 10px;
-        font-family: 'Abril Fatface', cursive;
-        font-size: 45px;
-    }
-    .container .row .home-heading p {
-        display: block;
-        background: rgba(255, 82, 59, 0.3);
-        width: 60vw;
-        margin-bottom: 5px;
-        float: right;
-        padding-left: 10px;
-        margin-right: 0;
-        text-align: right;
-        font-size: 25px;
-    }
-    .container .row .home-heading span p {
-        width: 70vw;
-        margin-right: 0;
-        margin-left: 20%;
-        float: right;
-        text-align: right;
-        font-size: 25px;
-    }
-    .p-title::after {
-        left: 50%;
-    }
-    .size {
-        position: relative;
-        margin: 0 auto;
-    }
+  .header {
+    height: 50vh;
+    margin-bottom: 300px;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+  .col-2 {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  #myBtn {
+    bottom: 4vh;
+    left: 89vw;
+  }
+  .btn {
+    text-align: center;
+  }
+  .advert-layout .left {
+    right: 5%;
+  }
+  .advert-layout .right {
+    left: 5%;
+  }
+  .promotion-layout {
+    grid-template-columns: repeat(2, 3fr);
+  }
+  .home-heading {
+    display: block;
+    width: 100vw;
+  }
+  .container .row .home-heading span h1 {
+    width: 60%;
+    font-size: 45px;
+    font-family: "Abril Fatface", cursive;
+  }
+  .container .row .home-heading h1 {
+    width: 80%;
+    margin-bottom: 10px;
+    font-family: "Abril Fatface", cursive;
+    font-size: 45px;
+  }
+  .container .row .home-heading p {
+    display: block;
+    background: rgba(255, 82, 59, 0.3);
+    width: 60vw;
+    margin-bottom: 5px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 0;
+    text-align: right;
+    font-size: 25px;
+  }
+  .container .row .home-heading span p {
+    width: 70vw;
+    margin-right: 0;
+    margin-left: 20%;
+    float: right;
+    text-align: right;
+    font-size: 25px;
+  }
+  .p-title::after {
+    left: 50%;
+  }
+  .size {
+    position: relative;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .header {
-        height: 50vh;
-        margin-bottom: 300px;
-    }
-    .container {
-        margin-top: 20vh;
-    }
-    .col-2 {
-        flex-basis: 100%;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-    #myBtn {
-        bottom: 4vh;
-        left: 89vw;
-    }
-    .btn {
-        text-align: center;
-    }
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-    #MenuItems {
-        z-index: 2;
-    }
-    html::-webkit-scrollbar-thumb {
-        background-color: #ff523b;
-    }
-    .home-heading {
-        display: block;
-        width: 100vw;
-    }
-    .container .row .home-heading span h1 {
-        width: 60%;
-        font-size: 45px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    .container .row .home-heading h1 {
-        width: 80%;
-        margin-bottom: 10px;
-        font-size: 45px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    .container .row .home-heading p {
-        display: block;
-        background: rgba(255, 82, 59, 0.3);
-        width: 60vw;
-        margin-bottom: 5px;
-        float: right;
-        padding-left: 10px;
-        margin-right: 0;
-        text-align: right;
-        font-size: 25px;
-    }
-    .container .row .home-heading span p {
-        width: 70vw;
-        margin-right: 0;
-        margin-left: 20%;
-        float: right;
-        font-size: 25px;
-    }
+  .header {
+    height: 50vh;
+    margin-bottom: 300px;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+  .col-2 {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  #myBtn {
+    bottom: 4vh;
+    left: 89vw;
+  }
+  .btn {
+    text-align: center;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  #MenuItems {
+    z-index: 2;
+  }
+  html::-webkit-scrollbar-thumb {
+    background-color: #ff523b;
+  }
+  .home-heading {
+    display: block;
+    width: 100vw;
+  }
+  .container .row .home-heading span h1 {
+    width: 60%;
+    font-size: 45px;
+    font-family: "Abril Fatface", cursive;
+  }
+  .container .row .home-heading h1 {
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-family: "Abril Fatface", cursive;
+  }
+  .container .row .home-heading p {
+    display: block;
+    background: rgba(255, 82, 59, 0.3);
+    width: 60vw;
+    margin-bottom: 5px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 0;
+    text-align: right;
+    font-size: 25px;
+  }
+  .container .row .home-heading span p {
+    width: 70vw;
+    margin-right: 0;
+    margin-left: 20%;
+    float: right;
+    font-size: 25px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .header {
-        height: 70vh;
-        margin-bottom: 300px;
-    }
-    .col-2 {
-        flex-basis: 100%;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-    .promotion-layout {
-        grid-template-columns: 1fr;
-        margin: 0 10px;
-    }
-    .div {
-        padding: 1rem .5rem 5rem .5rem;
-    }
-    .promotion-content h3 {
-        padding: 0.2rem 1rem;
-        font-size: 1.1rem;
-        font-weight: inherit;
-        margin-bottom: 1rem;
-    }
-    .advert .advert-layout {
-        grid-template-columns: 1fr;
-    }
-    .home-heading {
-        display: block;
-        width: 100vw;
-    }
-    .container .row .home-heading span h1 {
-        width: 60%;
-        font-size: 35px;
-        margin-bottom: 5px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    .container .row .home-heading h1 {
-        width: 80%;
-        margin-bottom: 10px;
-        font-size: 35px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    .container .row .home-heading p {
-        display: block;
-        background: rgba(255, 82, 59, 0.3);
-        width: 60vw;
-        margin-bottom: 5px;
-        float: right;
-        padding-left: 10px;
-        margin-right: 0;
-        text-align: right;
-        font-size: 20px;
-    }
-    .container .row .home-heading span p {
-        width: 70vw;
-        margin-right: 0;
-        margin-left: 20%;
-        float: right;
-        font-size: 20px;
-    }
-    .container {
-        margin-top: 20vh;
-    }
-    #myBtn {
-        bottom: 4vh;
-        left: 89vw;
-    }
-    .btn {
-        text-align: center;
-    }
-    .promotion .title h2 {
-        font-size: 60px;
-    }
+  .header {
+    height: 70vh;
+    margin-bottom: 300px;
+  }
+  .col-2 {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .promotion-layout {
+    grid-template-columns: 1fr;
+    margin: 0 10px;
+  }
+  .div {
+    padding: 1rem 0.5rem 5rem 0.5rem;
+  }
+  .promotion-content h3 {
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    font-weight: inherit;
+    margin-bottom: 1rem;
+  }
+  .advert .advert-layout {
+    grid-template-columns: 1fr;
+  }
+  .home-heading {
+    display: block;
+    width: 100vw;
+  }
+  .container .row .home-heading span h1 {
+    width: 60%;
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-family: "Abril Fatface", cursive;
+  }
+  .container .row .home-heading h1 {
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: "Abril Fatface", cursive;
+  }
+  .container .row .home-heading p {
+    display: block;
+    background: rgba(255, 82, 59, 0.3);
+    width: 60vw;
+    margin-bottom: 5px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 0;
+    text-align: right;
+    font-size: 20px;
+  }
+  .container .row .home-heading span p {
+    width: 70vw;
+    margin-right: 0;
+    margin-left: 20%;
+    float: right;
+    font-size: 20px;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+  #myBtn {
+    bottom: 4vh;
+    left: 89vw;
+  }
+  .btn {
+    text-align: center;
+  }
+  .promotion .title h2 {
+    font-size: 60px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .col-2, .col-3 {
-        flex-basis: 100%;
-        flex-wrap: wrap;
-    }
-    .col-4 {
-        flex-basis: 50%;
-        flex-wrap: wrap;
-    }
-    .row {
-        text-align: center;
-    }
-    .small-container .row {
-        grid-template-columns: repeat(2, 2fr);
-    }
-    .single-product .row {
-        text-align: left;
-    }
-    .single-product .col-2 {
-        padding: 20px 0;
-    }
-    .single-product h1 {
-        font-size: 26px;
-        line-height: 32px;
-    }
-    .promotion .title h2 {
-        font-size: 60px;
-    }
-    .cart-info {
-        display: none;
-    }
-    #myBtn {
-        bottom: 4vh;
-        left: 89vw;
-    }
-    .btn {
-        text-align: center;
-    }
-    .container {
-        margin-top: 20vh;
-    }
-    .logo {
-        display: inline-block;
-        width: 70%;
-    }
-    .logo img {
-        width: 65%;
-    }
-    .header {
-        margin-bottom: 300px;
-    }
-    .home-heading {
-        display: block;
-        width: 100vw;
-    }
-    .container .row .home-heading span h1 {
-        display: block;
-        margin-right: 40px;
-        width: 60%;
-        font-size: 30px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    .container .row .home-heading h1 {
-        text-align: left;
-        width: 75%;
-        margin-bottom: 5px;
-        background-color: #ff4545;
-        color: white;
-        display: block;
-        text-transform: uppercase;
-        font-size: 30px;
-        font-weight: 100;
-        letter-spacing: -1px;
-        font-family: 'Abril Fatface', cursive;
-        float: left;
-    }
-    .container .row .home-heading p {
-        display: block;
-        background: rgba(255, 82, 59, 0.3);
-        width: 60vw;
-        margin-bottom: 5px;
-        float: right;
-        padding-left: 10px;
-        margin-right: 0;
-        text-align: right;
-    }
-    .container .row .home-heading span p {
-        width: 70vw;
-        margin-right: 0;
-        margin-left: 20%;
-        float: right;
-    }
+  .col-2,
+  .col-3 {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+  .col-4 {
+    flex-basis: 50%;
+    flex-wrap: wrap;
+  }
+  .row {
+    text-align: center;
+  }
+  .small-container .row {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .single-product .row {
+    text-align: left;
+  }
+  .single-product .col-2 {
+    padding: 20px 0;
+  }
+  .single-product h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .promotion .title h2 {
+    font-size: 60px;
+  }
+  .cart-info {
+    display: none;
+  }
+  #myBtn {
+    bottom: 4vh;
+    left: 89vw;
+  }
+  .btn {
+    text-align: center;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+  .logo {
+    display: inline-block;
+    width: 70%;
+  }
+  .logo img {
+    width: 65%;
+  }
+  .header {
+    margin-bottom: 300px;
+  }
+  .home-heading {
+    display: block;
+    width: 100vw;
+  }
+  .container .row .home-heading span h1 {
+    display: block;
+    margin-right: 40px;
+    width: 60%;
+    font-size: 30px;
+    font-family: "Abril Fatface", cursive;
+  }
+  .container .row .home-heading h1 {
+    text-align: left;
+    width: 75%;
+    margin-bottom: 5px;
+    background-color: #ff4545;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    font-family: "Abril Fatface", cursive;
+    float: left;
+  }
+  .container .row .home-heading p {
+    display: block;
+    background: rgba(255, 82, 59, 0.3);
+    width: 60vw;
+    margin-bottom: 5px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 0;
+    text-align: right;
+  }
+  .container .row .home-heading span p {
+    width: 70vw;
+    margin-right: 0;
+    margin-left: 20%;
+    float: right;
+  }
 }
 
 @media only screen and (max-width: 567px) {
-    .col-3 {
-        flex-basis: 80%;
-    }
-    .col-4 {
-        flex-basis: 50%;
-        flex-wrap: wrap;
-    }
-    .advert-layout .content span {
-        font-size: 1rem;
-        margin-bottom: 0.6rem;
-    }
-    .advert-layout .content h3 {
-        font-size: 1.5rem;
-        margin-bottom: 0.6rem;
-    }
-    .advert-layout .content a {
-        transition: all 300ms ease-in-out;
-    }
-    .home-heading {
-        display: block;
-        width: 100vw;
-    }
-    .container .row .home-heading span h1 {
-        display: block;
-        margin-right: 40px;
-        width: 70%;
-        font-size: 30px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    .container .row .home-heading h1 {
-        text-align: left;
-        width: 80%;
-        margin-bottom: 5px;
-        margin-right: 40px;
-        padding-right: 40px;
-        background-color: #ff4545;
-        color: white;
-        display: block;
-        text-transform: uppercase;
-        font-size: 30px;
-        line-height: 1.2;
-        font-weight: 100;
-        letter-spacing: -1px;
-        font-family: 'Abril Fatface', cursive;
-        float: left;
-    }
-    .container .row .home-heading p {
-        display: block;
-        background: rgba(255, 82, 59, 0.3);
-        width: 80vw;
-        margin-bottom: 5px;
-        float: right;
-        padding-left: 10px;
-        margin-right: 0;
-        text-align: right;
-    }
-    .container .row .home-heading span p {
-        width: 70vw;
-        margin-right: 0;
-        margin-left: 20%;
-        float: right;
-    }
-    .container .row {
-        display: flex;
-        justify-content: center;
-    }
-    .promotion .title h2 {
-        font-size: 60px;
-    }
-    .promotion .title span {
-        font-size: 13px;
-        font-weight: bold;
-    }
-    .promotion .title {
-        margin-bottom: 30px;
-    }
+  .col-3 {
+    flex-basis: 80%;
+  }
+  .col-4 {
+    flex-basis: 50%;
+    flex-wrap: wrap;
+  }
+  .advert-layout .content span {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+  .advert-layout .content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+  }
+  .advert-layout .content a {
+    transition: all 300ms ease-in-out;
+  }
+  .home-heading {
+    display: block;
+    width: 100vw;
+  }
+  .container .row .home-heading span h1 {
+    display: block;
+    margin-right: 40px;
+    width: 70%;
+    font-size: 30px;
+    font-family: "Abril Fatface", cursive;
+  }
+  .container .row .home-heading h1 {
+    text-align: left;
+    width: 80%;
+    margin-bottom: 5px;
+    margin-right: 40px;
+    padding-right: 40px;
+    background-color: #ff4545;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 100;
+    letter-spacing: -1px;
+    font-family: "Abril Fatface", cursive;
+    float: left;
+  }
+  .container .row .home-heading p {
+    display: block;
+    background: rgba(255, 82, 59, 0.3);
+    width: 80vw;
+    margin-bottom: 5px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 0;
+    text-align: right;
+  }
+  .container .row .home-heading span p {
+    width: 70vw;
+    margin-right: 0;
+    margin-left: 20%;
+    float: right;
+  }
+  .container .row {
+    display: flex;
+    justify-content: center;
+  }
+  .promotion .title h2 {
+    font-size: 60px;
+  }
+  .promotion .title span {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .promotion .title {
+    margin-bottom: 30px;
+  }
 }
 
 @media only screen and (max-width: 448px) {
-    .header {
-        margin-bottom: 150px;
-    }
-    .promotion .title h2 {
-        font-size: 55px;
-    }
-    .promotion .title span {
-        font-size: 13px;
-        font-weight: bold;
-    }
-    .promotion .title {
-        margin-bottom: 30px;
-    }
-    #slider {
-        overflow: hidden;
-        height: 400px;
-        width: 90%;
-        justify-items: center;
-        text-align: center;
-        box-shadow: 0 6px 10px 0 rgb(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.2);
-        margin: auto;
-        border-radius: 10px;
-    }
-    .col-3 {
-        flex-basis: 100%;
-    }
-    .col-4 {
-        flex-basis: 50%;
-        flex-wrap: wrap;
-    }
-    .home-heading {
-        display: block;
-        width: 100vw;
-    }
-    .container .row .home-heading span h1 {
-        display: block;
-        margin-right: 40px;
-        width: 70%;
-        font-family: 'Abril Fatface', cursive;
-        font-size: 30px;
-    }
-    .container .row .home-heading h1 {
-        text-align: left;
-        width: 85%;
-        margin-bottom: 5px;
-        margin-right: 40px;
-        padding-right: 40px;
-        background-color: #ff4545;
-        color: white;
-        display: block;
-        text-transform: uppercase;
-        font-size: 30px;
-        line-height: 1.2;
-        font-weight: 100;
-        letter-spacing: -1px;
-        font-family: 'Abril Fatface', cursive;
-        float: left;
-    }
-    .container .row .home-heading p {
-        display: block;
-        background: rgba(255, 82, 59, 0.3);
-        width: 80vw;
-        margin-bottom: 5px;
-        float: right;
-        padding-left: 10px;
-        margin-right: 0;
-        text-align: right;
-    }
-    .container .row .home-heading span p {
-        text-align: right;
-        width: 75vw;
-        margin-right: 0;
-        margin-left: 20%;
-        float: right;
-    }
+  .header {
+    margin-bottom: 150px;
+  }
+  .promotion .title h2 {
+    font-size: 55px;
+  }
+  .promotion .title span {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .promotion .title {
+    margin-bottom: 30px;
+  }
+  #slider {
+    overflow: hidden;
+    height: 400px;
+    width: 90%;
+    justify-items: center;
+    text-align: center;
+    box-shadow: 0 6px 10px 0 rgb(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    border-radius: 10px;
+  }
+  .col-3 {
+    flex-basis: 100%;
+  }
+  .col-4 {
+    flex-basis: 50%;
+    flex-wrap: wrap;
+  }
+  .home-heading {
+    display: block;
+    width: 100vw;
+  }
+  .container .row .home-heading span h1 {
+    display: block;
+    margin-right: 40px;
+    width: 70%;
+    font-family: "Abril Fatface", cursive;
+    font-size: 30px;
+  }
+  .container .row .home-heading h1 {
+    text-align: left;
+    width: 85%;
+    margin-bottom: 5px;
+    margin-right: 40px;
+    padding-right: 40px;
+    background-color: #ff4545;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 100;
+    letter-spacing: -1px;
+    font-family: "Abril Fatface", cursive;
+    float: left;
+  }
+  .container .row .home-heading p {
+    display: block;
+    background: rgba(255, 82, 59, 0.3);
+    width: 80vw;
+    margin-bottom: 5px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 0;
+    text-align: right;
+  }
+  .container .row .home-heading span p {
+    text-align: right;
+    width: 75vw;
+    margin-right: 0;
+    margin-left: 20%;
+    float: right;
+  }
 }
 
 @media only screen and (max-width: 419px) {
-    .container .row .home-heading span h1 {
-        display: block;
-        margin-right: 40px;
-        font-family: 'Abril Fatface', cursive;
-        width: 80%;
-    }
-    .container .row .home-heading h1 {
-        width: 90%;
-        margin-bottom: 5px;
-        margin-right: 0%;
-        padding-right: 0;
-        background-color: #ff4545;
-        color: white;
-        display: inline-block;
-        text-transform: uppercase;
-        font-size: 30px;
-        line-height: 1.2;
-        font-weight: 400;
-        letter-spacing: -1px;
-        font-family: 'Abril Fatface', cursive;
-    }
-    .header {
-        margin-bottom: 100px;
-    }
-    .small-container .row {
-        grid-template-columns: 2fr;
-    }
-    .container .row .home-heading p {
-        display: block;
-        background: rgba(255, 82, 59, 0.3);
-        width: 85%;
-        margin-bottom: 5px;
-        float: right;
-        padding-left: 10px;
-        text-align: right;
-    }
-    .container .row .home-heading span p {
-        width: 80%;
-        text-align: right;
-        float: right;
-    }
-    .container {
-        margin-top: 15vh;
-    }
-    .footer-container {
-        margin-top: 5vh;
-    }
-    .div .title {
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-    }
-    .promotion .title h2 {
-        font-size: 55px;
-    }
-    .promotion .title span {
-        font-size: 15px;
-        font-weight: bold;
-    }
-    .promotion .title {
-        margin-bottom: 30px;
-    }
+  .container .row .home-heading span h1 {
+    display: block;
+    margin-right: 40px;
+    font-family: "Abril Fatface", cursive;
+    width: 80%;
+  }
+  .container .row .home-heading h1 {
+    width: 90%;
+    margin-bottom: 5px;
+    margin-right: 0%;
+    padding-right: 0;
+    background-color: #ff4545;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -1px;
+    font-family: "Abril Fatface", cursive;
+  }
+  .header {
+    margin-bottom: 100px;
+  }
+  .small-container .row {
+    grid-template-columns: 2fr;
+  }
+  .container .row .home-heading p {
+    display: block;
+    background: rgba(255, 82, 59, 0.3);
+    width: 85%;
+    margin-bottom: 5px;
+    float: right;
+    padding-left: 10px;
+    text-align: right;
+  }
+  .container .row .home-heading span p {
+    width: 80%;
+    text-align: right;
+    float: right;
+  }
+  .container {
+    margin-top: 15vh;
+  }
+  .footer-container {
+    margin-top: 5vh;
+  }
+  .div .title {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .promotion .title h2 {
+    font-size: 55px;
+  }
+  .promotion .title span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .promotion .title {
+    margin-bottom: 30px;
+  }
 }
 
 @media only screen and (max-width: 436px) {
-    .small-container .row .col-4 {
-        flex-basis: 100%;
-        flex-wrap: wrap;
-    }
+  .small-container .row .col-4 {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-height: 450px) {
-    .overlay a {
-        font-size: 20px
-    }
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/* media queries for products */
+
+@media screen and (max-width: 700px) {
+  .row-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-column-gap: .5rem;
+    margin: auto;
+    grid-row-gap: 2rem;
+    justify-items: center;
+  }
+  .col-container {
+    width: 95%;
+  }
+  .row-container .col-container img {
+    width: 100%;
+  }
+  .ratings,
+  .col-container h4,
+  .col-container p {
+    font-size: 1rem;
+  }
+  .row-container .col-container .add-to-cart {
+    font-size: 0.8rem;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  .row-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    max-width: 95%;
+    grid-column-gap: 1rem;
+  }
+  .col-container {
+    width: 100%;
+  }
+  .row-container .col-container img {
+    width: 100%;
+  }
+  .ratings,
+  .col-container h4,
+  .col-container p {
+    font-size: 1.1rem;
+  }
+  .row-container .col-container .add-to-cart {
+    width: 50%;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .row-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1rem;
+    max-width: 95%;
+    margin: auto;
+    justify-items: center;
+  }
+  .col-container {
+    width: 100%;
+  }
+  .row-container .col-container img {
+    width: 100%;
+  }
+  .ratings,
+  .col-container h4,
+  .col-container p {
+    font-size: 1.1rem;
+  }
+  .row-container .col-container .add-to-cart {
+    width: 50%;
+    font-size: 0.8rem;
+  }
 }
