@@ -29,7 +29,7 @@
   .home-heading h1 {
     width: 95%;
     margin-bottom: 10px;
-    font-size: 43px;
+    font-size: 42px;
     font-family: "Abril Fatface", cursive;
   }
   .container .row .home-heading p {
@@ -53,11 +53,14 @@
   .footer-container {
     margin-top: 5vh;
   }
+  .promotion-content h3 {
+    font-size: 0.7rem;
+  }
 }
 
 @media only screen and (max-width: 996px) {
   .header {
-    height: 50vh;
+    height: 70vh;
     margin-bottom: 300px;
   }
   .container {
@@ -83,6 +86,9 @@
   }
   .promotion-layout {
     grid-template-columns: repeat(2, 3fr);
+  }
+  .promotion-content h3 {
+    font-size: 0.9rem;
   }
   .home-heading {
     display: block;
@@ -129,7 +135,7 @@
 
 @media only screen and (max-width: 800px) {
   .header {
-    height: 50vh;
+    height: 70vh;
     margin-bottom: 300px;
   }
   .container {
@@ -189,6 +195,9 @@
     margin-left: 20%;
     float: right;
     font-size: 25px;
+  }
+  .promotion-content h3 {
+    font-size: 0.8rem;
   }
 }
 
@@ -268,10 +277,12 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .col-2,
-  .col-3 {
+  .col-2 {
     flex-basis: 100%;
     flex-wrap: wrap;
+  }
+  .col-3 {
+    flex-basis: 50%;
   }
   .col-4 {
     flex-basis: 50%;
@@ -364,7 +375,7 @@
 
 @media only screen and (max-width: 567px) {
   .col-3 {
-    flex-basis: 80%;
+    flex-basis: 95%;
   }
   .col-4 {
     flex-basis: 50%;
@@ -466,7 +477,8 @@
     border-radius: 10px;
   }
   .col-3 {
-    flex-basis: 100%;
+    flex-basis: 95%;
+    margin-bottom: 20px;
   }
   .col-4 {
     flex-basis: 50%;
@@ -519,7 +531,7 @@
   }
 }
 
-@media only screen and (max-width: 419px) {
+@media only screen and (max-width: 447px) {
   .container .row .home-heading span h1 {
     display: block;
     margin-right: 40px;
@@ -583,13 +595,6 @@
   }
 }
 
-@media only screen and (max-width: 436px) {
-  .small-container .row .col-4 {
-    flex-basis: 100%;
-    flex-wrap: wrap;
-  }
-}
-
 @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px;
@@ -608,7 +613,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 98vw;
-    grid-column-gap: .8rem;
+    grid-column-gap: 0.8rem;
     margin: auto;
     grid-row-gap: 2rem;
     justify-items: center;
