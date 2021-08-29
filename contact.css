@@ -139,14 +139,14 @@ a {
 .contact .content p {
     font-weight: 500;
     color: black;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .container {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 10px;
 }
 
@@ -271,7 +271,7 @@ a {
 
 @media only screen and (max-width: 600px) {
     .container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-top: 30px;
         justify-content: flex-start;
     }
@@ -298,5 +298,9 @@ a {
     }
     .content{
         margin-top: 50px;
+    }
+    .contact{
+        background: url(https://images.pexels.com/photos/5417622/pexels-photo-5417622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        background-size: cover;
     }
 }
